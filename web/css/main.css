@@ -12,6 +12,11 @@
     padding-bottom: 0px;
 }
 
+.no_margin_vertical {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .category_pictures_div {
     height: 280px;
 }
@@ -34,12 +39,7 @@
     position: absolute;
     align-content: center;
     width: 100%;
-    height: 50px;
     top: 350px;
-    
-    background: rgba(0,0,0,0.2);
-    border: 0px;
-    color: white;
 }
 
 .content_div {
@@ -49,7 +49,7 @@
 }
 
 .logo_img {
-    height: 100%;
+    height: 35px;
 }
 
 .navbar_color {
@@ -94,4 +94,14 @@
     min-width: 0;
     width: auto;
     display: inline;
+}
+
+.navbar_user_img{
+    width: 25px;
+    height: 25px;
+    align-self: center
+}
+
+.navbar-nav li a {
+ line-height: 50px;
 }
