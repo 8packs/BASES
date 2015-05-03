@@ -64,7 +64,7 @@
                   </li>
                   
                   <!-- Notification -->
-                  <li><a href="#"><span class="glyphicon glyphicon-bell" /><span class="placeholder"/></a></li>
+                  <li><a href="#"><span><span class="glyphicon glyphicon-bell" /><span class="placeholder"/></span></a></li>
                   <!-- Inbox -->
                   <li><a href="#"><span class="glyphicon glyphicon-envelope" /><span class="placeholder"/></a></li>
                   <!-- Add Friends -->
@@ -102,8 +102,17 @@
                     </div>
 
                     <div class="col-xs-7" align="right">
-                        <p>Sort by:</p>
-
+                        <div class="dropdown">
+                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+                            Sort by
+                            <span class="caret"></span>
+                          </button>
+                          <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="dropdownMenu1">
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Event Title</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Date</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Distance</a></li>
+                          </ul>
+                        </div>
                     </div>
                 </div>
             </div>

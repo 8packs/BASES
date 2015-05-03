@@ -113,7 +113,11 @@ body{
 .navbar_user_img{
     width: 25px;
     height: 25px;
-    align-self: center
+    align-self: center;
+}
+
+.navbar_items{
+    align-self: center;
 }
 
 .navbar-inner {
@@ -165,4 +169,25 @@ body{
 .role_participant{
     background-color: green;
     color: white;
+}
+
+.category_text_div {
+    top: 120px;
+    bottom: 120px;
+    width: 100%;
+    position: absolute;
+    height: 40px;
+    text-align: center;
+    font-size: 28;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+}
+
+.center_container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background: rgba(0,0,0,0.2);
 }
