@@ -308,3 +308,32 @@ body{
 .black-text{
     color: black;
 }
+
+.grey-text{
+    color: grey;
+}
+
+pipe ul li { float: right; }
+pipe ul li:after { content: "|"; padding: 0 .5em; }
+
+.footer-container{
+    background-color: lightgrey;
+    height: 40;
+    margin-top: 20;
+}
+
+.footer-left{
+    float: left;
+    height: 40;
+    background-color: lightgrey;
+    padding-left: 40;
+    padding-top: 10;
+}
+
+.footer-right{
+    float: right;
+    height: 40;
+    background-color: lightgrey;
+    padding-right: 40;
+    padding-top: 10;
+}
