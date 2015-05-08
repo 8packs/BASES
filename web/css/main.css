@@ -26,8 +26,18 @@ body{
 }
 
 .category_pictures_img {
+    height: 95%;
+    width: 98%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dark_overlay {
     height: 100%;
     width: 100%;
+    background: rgba(0,0,0,0.2);
 }
 
 .banner_img {
@@ -203,12 +213,7 @@ body{
     position: absolute;
     height: 100%;
     width: 100%;
-    padding-top: 5;
-    padding-bottom: 5;
-    padding-left: 5;
-    padding-right: 5;
     top: 0;
-    background: rgba(0,0,0,0.2);
 }
 
 .navbar_icon_color{
