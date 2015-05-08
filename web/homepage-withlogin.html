@@ -43,19 +43,26 @@
                   <ul class="nav navbar-nav navbar-right">
                       <!-- User -->
                       <li>
-                          <a href="#">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                               <span class="navbar_icon_color">
                                   <div>
-                                      <img class="navbar_user_img" src="images/ryan.png">
-                                      Ryan
+                                      <img class="navbar_user_img" src="images/allan.png">
+                                      Allan <span class="caret">
                                   </div>
                               </span>
                               <span class="placeholder"/>
                           </a>
+                          <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Dashboard</a></li>
+                            <li><a href="#">My Profile</a></li>
+                            <li><a href="myevents.html">My Events</a></li>
+                            <li class="divider"></li>
+                            <li><a href="homepage-nologin.html">Logout</a></li>
+                          </ul>
                       </li>
 
                       <!-- Notification -->
-                      <li><a href="#"><span class="glyphicon glyphicon-bell navbar_icon_color" /><span class="placeholder"/></a></li>
+                      <li><a href="myevents.html"><span class="glyphicon glyphicon-bell navbar_icon_color" /><span class="placeholder"/></a></li>
                       <!-- Inbox -->
                       <li><a href="#"><span class="glyphicon glyphicon-envelope navbar_icon_color" /><span class="placeholder"/></a></li>
                       <!-- Add Friends -->
@@ -134,7 +141,7 @@
                         </div>
                         
                         <!-- Name -->
-                        <p class="popular-event-name">The Cold Storage Kids Run 2015</p>
+                        <a href="https://kidsrun.8packs.com/"><p class="popular-event-name black-text">The Cold Storage Kids Run 2015</p></a>
                         
                         <div class="popular-event-details">
                             <div>
@@ -219,7 +226,7 @@
                         </div>
                         
                         <!-- Name -->
-                        <p class="popular-event-name">50 Hours Non-Stop Run 2015</p>
+                        <a href="https://50hrsnonstoprun.8packs.com"><p class="popular-event-name black-text">50 Hours Non-Stop Run 2015</p></a>
                         
                         <div class="popular-event-details">
                             <div>
@@ -371,7 +378,7 @@
                 <h4>Browse Events by Category</h4>
 
                 <!-- Running -->
-                <div class="col-md-6 no_padding_horizontal category_pictures_div">
+                <div class="col-md-6 category_pictures_div">
                     <div class="center_container">
                         <img src="images/running.jpg" class="img-responsive no_padding_horizontal category_pictures_img" alt="Responsive image">
                         <div class="center_container">
@@ -381,7 +388,7 @@
                 </div>
 
                 <!-- Swimming -->
-                <div class="col-md-6 no_padding_horizontal category_pictures_div">
+                <div class="col-md-6 category_pictures_div">
                     <div class="center_container">
                         <img src="images/swimming.jpg" class="img-responsive no_padding_horizontal category_pictures_img" alt="Responsive image">
                         <div class="center_container">
@@ -391,7 +398,7 @@
                 </div>
 
                 <!-- Cycling -->
-                <div class="col-md-6 no_padding_horizontal category_pictures_div">
+                <div class="col-md-6 category_pictures_div">
                     <div class="center_container">
                         <img src="images/cycling.jpg" class="img-responsive no_padding_horizontal category_pictures_img" alt="Responsive image">
                         <div class="center_container">
@@ -401,7 +408,7 @@
                 </div>
 
                 <!-- Kayaking -->
-                <div class="col-md-6 no_padding_horizontal category_pictures_div">
+                <div class="col-md-6 category_pictures_div">
                     <div class="center_container">
                         <img src="images/kayaking.jpg" class="img-responsive no_padding_horizontal category_pictures_img" alt="Responsive image">
                         <div class="center_container">

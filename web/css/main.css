@@ -171,6 +171,21 @@ body{
     color: white;
 }
 
+.role_supplier{
+    background-color: dodgerblue;
+    color: white;
+}
+
+.role_volunteer{
+    background-color: mediumpurple;
+    color: white;
+}
+
+.role_sponsor{
+    background-color: orange;
+    color: white;
+}
+
 .category_text_div {
     top: 120px;
     bottom: 120px;
@@ -188,6 +203,10 @@ body{
     position: absolute;
     height: 100%;
     width: 100%;
+    padding-top: 5;
+    padding-bottom: 5;
+    padding-left: 5;
+    padding-right: 5;
     top: 0;
     background: rgba(0,0,0,0.2);
 }
@@ -279,4 +298,8 @@ body{
     height: 20;
     margin-left: 5;
     margin-right: 5;
+}
+
+.black-text{
+    color: black;
 }

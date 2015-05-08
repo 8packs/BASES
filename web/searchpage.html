@@ -52,19 +52,26 @@
               <ul class="nav navbar-nav navbar-right">
                   <!-- User -->
                   <li>
-                      <a href="#">
-                          <span>
-                              <div>
-                                  <img class="navbar_user_img" src="images/ryan.png">
-                                  Ryan
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                          <span class="navbar_icon_color">
+                              <div class="black-text">
+                                  <img class="navbar_user_img" src="images/allan.png">
+                                  Allan <span class="caret">
                               </div>
                           </span>
                           <span class="placeholder"/>
                       </a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Dashboard</a></li>
+                        <li><a href="#">My Profile</a></li>
+                        <li><a href="myevents.html">My Events</a></li>
+                        <li class="divider"></li>
+                        <li><a href="homepage-nologin.html">Logout</a></li>
+                      </ul>
                   </li>
                   
                   <!-- Notification -->
-                  <li><a href="#"><span class="glyphicon glyphicon-bell" /><span class="placeholder"/></a></li>
+                  <li><a href="myevents.html"><span class="glyphicon glyphicon-bell" /><span class="placeholder"/></a></li>
                   <!-- Inbox -->
                   <li><a href="#"><span class="glyphicon glyphicon-envelope" /><span class="placeholder"/></a></li>
                   <!-- Add Friends -->
