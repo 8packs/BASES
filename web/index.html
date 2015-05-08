@@ -1,182 +1,405 @@
 <html>
-  <head>
-    <title>
-      8packs Events
-    </title>
-      <link rel="stylesheet" type="text/css" href="./css/style.css">
-  </head>
-  <body>
-    <div id="container"></div>
-    <div id="header"><p> Header Goes Here</p></div>
-    <div id="content">
-      <h2> Popular Events</h2>
-      <div id="allEvents">
-        <div id="event" style="margin-top: -1%;">
-          <div id="bar">
-            <div id="date">
-              <font color="white">
-                <b>Tue, Apr 21<br/>
-                6:00 pm</b>
-              </font>
+    <head>
+        <title>
+            8packs Home Page
+        </title>
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+        
+        <!-- Ubuntu Font -->
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+        
+        <link rel="stylesheet" href="css/main.css">
+        
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="banner_div">
+            <nav class="navbar transparent navbar-inner">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#"><img src="images/logo.png" class="img-responsive logo_img" alt="Responsive image"></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="navbar_text_color">Sign-up</span></a></li>
+                    <li><a href="index-login.html"><span class="navbar_text_color">Login</span></a></li>
+                    <li><button type="button" class="btn btn-warning navbar-btn">Browse Events</button></li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+
+            <!-- Picture with Search bar -->
+            <div>
+                <img src="images/banner.png" class="img-responsive banner_img" alt="Responsive image">
+                
+                <!-- Overlay -->
+                <div class="banner_overlay">
+                </div>
+                
+                <div class="banner_header_text center">
+                    <h1 align="center" class="banner_text ubuntu_font no_margin_vertical">Every Step Brings You</h1>
+                    <h1 align="center" class="banner_text ubuntu_font no_margin_vertical">Closer To Your Goal</h1>
+                </div>
+                
+                
+                <div class="banner_search_box_div">
+                    <div class="col-lg-offset-2 col-lg-8">
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Cycling from 3 May to 2 August in Napa Valley">
+                          <span class="input-group-btn">
+                            <button class="btn btn-warning" type="button">Search</button>
+                          </span>
+                        </div><!-- /input-group -->
+                    </div>
+                </div>
+                
             </div>
-          </div>
-          <a href="https://kidsrun.8packs.com/" style="text-decoration:none;">
-            <img src="images/kidsrun.png" style="float: left; border:4px solid #fff; width:90px; height:100px; margin:-10% 0 0 5%;" />
-          </a>
-          <div id="eventname">
-            <div id="charge">
-              <p style="margin: -25px 0 0 18px;">#free</p>
-            </div>
-            <a href="https://kidsrun.8packs.com/" style="text-decoration:none;">
-              <h3><font color="black">The Cold Storage Kids Run 2015</font></h3>
-            </a>
-            <div style="clear:both"></div>
-            <p style="margin: -17% 0 0 5%;">
-              <img src="images/runner.png"/ style="max-width:30px; max-height:30px;">
-              <font color ="grey">Race</font>
-            </p>
-            <p style="margin: -1% 0 0 5%;">
-              <img src="images/location.png"/ style="max-width:20px; max-height:20px;">
-              <font color ="grey">&nbsp;&nbsp;&nbsp;&nbsp;8901 Sunset...</font>
-            </p>
-          </div>
+            
         </div>
-        <div id="event" style="margin-left:2%; margin-top: -1%;">
-          <div id="bar">
-            <div id="date">
-              <font color="white">
-                <b>Thu, May 15<br/>
-                7:00 pm</b>
-              </font>
+        
+        <!-- Contents -->
+        <div class="content_div">
+            <!-- Grid of events -->
+            <div class="container">
+                <h4>Popular Events</h4> 
             </div>
-          </div>
-          <img src="images/stdchrt.png" style="float: left; border:4px solid #fff; width:90px; height:100px; margin:-10% 0 0 5%;">
-          <div id="eventname">
-            <div id="charge">
-              <p style="margin: -25px 0 0 18px;">#free</p>
+            
+            <div class="container">
+                
+                <!-- Cold Storage Kids Run 2015 -->
+                <div class="col-md-4">
+                    <!-- Content -->
+                    <div class="popular-event-content">
+                        <!-- Header -->
+                        <div class="popular-event-header">
+                            <!-- Date -->
+                            <div class="popular-event-date-time-div">
+                                <p class="popular-event-date-time no_margin_vertical" align="right">Tue, Apr 21</p>
+                                <p class="popular-event-date-time no_margin_vertical" align="right">6:00 pm</p>
+                            </div>
+                        </div>
+
+                        <!-- Body -->
+                        <div class="popular-event-body">
+
+                        </div>
+                        
+                        <!-- Picture -->
+                        <div class="popular-event-img-frame">
+                            <img src="images/kidsrun.png" class="popular-event-img">
+                        </div>
+                        
+                        <!-- Name -->
+                        <a href="https://kidsrun.8packs.com/"><p class="popular-event-name black-text">The Cold Storage Kids Run 2015</p></a>
+                        
+                        <div class="popular-event-details">
+                            <div>
+                                <div class="popular-event-details-item">
+                                    <img src="images/runner.png" class="popular-event-details-icon">
+                                    <span class="popular-event-details-text">Race</span>
+                                </div>
+                                <div class="popular-event-details-item">
+                                    <img src="images/location.png" class="popular-event-details-icon">
+                                    <span class="popular-event-details-text">8901 Sunset...</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+                <!-- Standard Chartered Marathon 2015 -->
+                <div class="col-md-4">
+                    <!-- Content -->
+                    <div class="popular-event-content">
+                        <!-- Header -->
+                        <div class="popular-event-header">
+                            <!-- Date -->
+                            <div class="popular-event-date-time-div">
+                                <p class="popular-event-date-time no_margin_vertical" align="right">Thu, May 15</p>
+                                <p class="popular-event-date-time no_margin_vertical" align="right">7:00 pm</p>
+                            </div>
+                        </div>
+
+                        <!-- Body -->
+                        <div class="popular-event-body">
+
+                        </div>
+                        
+                        <!-- Picture -->
+                        <div class="popular-event-img-frame">
+                            <img src="images/stdchrt.png" class="popular-event-img">
+                        </div>
+                        
+                        <!-- Name -->
+                        <p class="popular-event-name">Standard Chartered Marathon 2015</p>
+                        
+                        <div class="popular-event-details">
+                            <div>
+                                <div class="popular-event-details-item">
+                                    <img src="images/runner.png" class="popular-event-details-icon">
+                                    <span class="popular-event-details-text">Race</span>
+                                </div>
+                                <div class="popular-event-details-item">
+                                    <img src="images/location.png" class="popular-event-details-icon">
+                                    <span class="popular-event-details-text">7763 Mayes...</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <!-- 50 Hours Non-Stop Run 2015 -->
+                <div class="col-md-4">
+                    <!-- Content -->
+                    <div class="popular-event-content">
+                        <!-- Header -->
+                        <div class="popular-event-header">
+                            <!-- Date -->
+                            <div class="popular-event-date-time-div">
+                                <p class="popular-event-date-time no_margin_vertical" align="right">Sat, Jun 10</p>
+                                <p class="popular-event-date-time no_margin_vertical" align="right">9:00 am</p>
+                            </div>
+                        </div>
+
+                        <!-- Body -->
+                        <div class="popular-event-body">
+
+                        </div>
+                        
+                        <!-- Picture -->
+                        <div class="popular-event-img-frame">
+                            <img src="images/50hour.png" class="popular-event-img">
+                        </div>
+                        
+                        <!-- Name -->
+                        <a href="https://50hrsnonstoprun.8packs.com"><p class="popular-event-name black-text">50 Hours Non-Stop Run 2015</p></a>
+                        
+                        <div class="popular-event-details">
+                            <div>
+                                <div class="popular-event-details-item">
+                                    <img src="images/runner.png" class="popular-event-details-icon">
+                                    <span class="popular-event-details-text">Race</span>
+                                </div>
+                                <div class="popular-event-details-item">
+                                    <img src="images/location.png" class="popular-event-details-icon">
+                                    <span class="popular-event-details-text">3655 Helm...</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <!-- The Boston Marathon Run 2015 -->
+                <div class="col-md-4">
+                    <!-- Content -->
+                    <div class="popular-event-content">
+                        <!-- Header -->
+                        <div class="popular-event-header">
+                            <!-- Date -->
+                            <div class="popular-event-date-time-div">
+                                <p class="popular-event-date-time no_margin_vertical" align="right">Wed, Jun 27</p>
+                                <p class="popular-event-date-time no_margin_vertical" align="right">6:00 pm</p>
+                            </div>
+                        </div>
+
+                        <!-- Body -->
+                        <div class="popular-event-body">
+
+                        </div>
+                        
+                        <!-- Picture -->
+                        <div class="popular-event-img-frame">
+                            <img src="images/bostonrun.png" class="popular-event-img">
+                        </div>
+                        
+                        <!-- Name -->
+                        <p class="popular-event-name">The Boston Marathon Run 2015</p>
+                        
+                        <div class="popular-event-details">
+                            <div>
+                                <div class="popular-event-details-item">
+                                    <img src="images/runner.png" class="popular-event-details-icon">
+                                    <span class="popular-event-details-text">Race</span>
+                                </div>
+                                <div class="popular-event-details-item">
+                                    <img src="images/location.png" class="popular-event-details-icon">
+                                    <span class="popular-event-details-text">6654 Baysh...</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <!-- The Jurong Lake Run 2015 -->
+                <div class="col-md-4">
+                    <!-- Content -->
+                    <div class="popular-event-content">
+                        <!-- Header -->
+                        <div class="popular-event-header">
+                            <!-- Date -->
+                            <div class="popular-event-date-time-div">
+                                <p class="popular-event-date-time no_margin_vertical" align="right">Mon, Jul 16</p>
+                                <p class="popular-event-date-time no_margin_vertical" align="right">6:30 pm</p>
+                            </div>
+                        </div>
+
+                        <!-- Body -->
+                        <div class="popular-event-body">
+
+                        </div>
+                        
+                        <!-- Picture -->
+                        <div class="popular-event-img-frame">
+                            <img src="images/juronglake.png" class="popular-event-img">
+                        </div>
+                        
+                        <!-- Name -->
+                        <p class="popular-event-name">The Jurong Lake Run 2015</p>
+                        
+                        <div class="popular-event-details">
+                            <div>
+                                <div class="popular-event-details-item">
+                                    <img src="images/runner.png" class="popular-event-details-icon">
+                                    <span class="popular-event-details-text">Race</span>
+                                </div>
+                                <div class="popular-event-details-item">
+                                    <img src="images/location.png" class="popular-event-details-icon">
+                                    <span class="popular-event-details-text">9423 Shore...</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <!-- The California Marathon 2015 -->
+                <div class="col-md-4">
+                    <!-- Content -->
+                    <div class="popular-event-content">
+                        <!-- Header -->
+                        <div class="popular-event-header">
+                            <!-- Date -->
+                            <div class="popular-event-date-time-div">
+                                <p class="popular-event-date-time no_margin_vertical" align="right">Fri, Aug 18</p>
+                                <p class="popular-event-date-time no_margin_vertical" align="right">6:00 pm</p>
+                            </div>
+                        </div>
+
+                        <!-- Body -->
+                        <div class="popular-event-body">
+
+                        </div>
+                        
+                        <!-- Picture -->
+                        <div class="popular-event-img-frame">
+                            <img src="images/california.png" class="popular-event-img">
+                        </div>
+                        
+                        <!-- Name -->
+                        <p class="popular-event-name">The California Marathon 2015</p>
+                        
+                        <div class="popular-event-details">
+                            <div>
+                                <div class="popular-event-details-item">
+                                    <img src="images/runner.png" class="popular-event-details-icon">
+                                    <span class="popular-event-details-text">Race</span>
+                                </div>
+                                <div class="popular-event-details-item">
+                                    <img src="images/location.png" class="popular-event-details-icon">
+                                    <span class="popular-event-details-text">7785 Milwa...</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
             </div>
-            <h3>Standard Chartered Marathon 2015</h3>
-            <div style="clear:both"></div>
-            <p style="margin: -17% 0 0 5%;">
-              <img src="images/runner.png"/ style="max-width:30px; max-height:30px;">
-              <font color ="grey">Race</font>
-            </p>
-            <p style="margin: -1% 0 0 5%;">
-              <img src="images/location.png"/ style="max-width:20px; max-height:20px;">
-              <font color ="grey">&nbsp;&nbsp;&nbsp;&nbsp;7763 Mayes...</font>
-            </p>
-          </div>
+
+            <!-- Browse by categories -->
+            <div class="container">
+                <h4>Browse Events by Category</h4>
+
+                <!-- Running -->
+                <div class="col-md-6 category_pictures_div">
+                    <div class="center_container">
+                        <img src="images/running.jpg" class="img-responsive no_padding_horizontal category_pictures_img" alt="Responsive image">
+                        <div class="center_container">
+                            <p class="category_text_div">Running</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Swimming -->
+                <div class="col-md-6 category_pictures_div">
+                    <div class="center_container">
+                        <img src="images/swimming.jpg" class="img-responsive no_padding_horizontal category_pictures_img" alt="Responsive image">
+                        <div class="center_container">
+                            <p class="category_text_div">Swimming</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cycling -->
+                <div class="col-md-6 category_pictures_div">
+                    <div class="center_container">
+                        <img src="images/cycling.jpg" class="img-responsive no_padding_horizontal category_pictures_img" alt="Responsive image">
+                        <div class="center_container">
+                            <p class="category_text_div">Cycling</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kayaking -->
+                <div class="col-md-6 category_pictures_div">
+                    <div class="center_container">
+                        <img src="images/kayaking.jpg" class="img-responsive no_padding_horizontal category_pictures_img" alt="Responsive image">
+                        <div class="center_container">
+                            <p class="category_text_div">Kayaking</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-container">
+                <div class="footer-left">
+                    <span class="grey-text">&copy; 2015 8packs. All Rights Reserved.</span>
+                </div>
+                <div class="footer-right">
+                    <a href="#"><span class="grey-text">Help</span></a>
+                    <span class="grey-text">  |  </span>
+                    <a href="#"><span class="grey-text">Blog</span></a>
+                    <span class="grey-text">  |  </span>
+                    <a href="#"><span class="grey-text">Contact Us</span></a>
+                    <span class="grey-text">  |  </span>
+                    <a href="#"><span class="grey-text">About Us</span></a>
+                </div>
+            </div>
         </div>
-        <div id="event" style="margin-left:2%; margin-top: -1%;">
-          <div id="bar">
-            <div id="date">
-              <font color="white">
-                <b>Sat, Jun 10<br/>
-                9:00 am</b>
-              </font>
-            </div>
-          </div>
-          <a href="https://50hrsnonstoprun.8packs.com/" style="text-decoration:none;">
-            <img src="images/50hour.png" style="float: left; border:4px solid #fff; width:90px; height:100px; margin:-10% 0 0 5%;">
-          </a>
-          <div id="eventname">
-            <div id="charge">
-              <p style="margin: -25px 0 0 18px;">#free</p>
-            </div>
-            <a href="https://50hrsnonstoprun.8packs.com/" style="text-decoration:none;">
-              <h3><font color="black">50 Hours Non-Stop Run 2015</font></h3>
-            </a>
-            <div style="clear:both"></div>
-            <p style="margin: -17% 0 0 5%;">
-              <img src="images/runner.png"/ style="max-width:30px; max-height:30px;">
-              <font color ="grey">Race</font>
-            </p>
-            <p style="margin: -1% 0 0 5%;">
-              <img src="images/location.png"/ style="max-width:20px; max-height:20px;">
-              <font color ="grey">&nbsp;&nbsp;&nbsp;&nbsp;3655 Helm...</font>
-            </p>
-          </div>
-        </div>
-        <div id="event" style="margin-top: 2%;">
-          <div id="bar">
-            <div id="date">
-              <font color="white">
-                <b>Wed, Jun 27<br/>
-                6:00 pm</b>
-              </font>
-            </div>
-          </div>
-          <img src="images/bostonrun.png" style="float: left; border:4px solid #fff; width:90px; height:100px; margin:-10% 0 0 5%;">
-          <div id="eventname">
-            <div id="charge">
-              <p style="margin: -25px 0 0 18px;">#free</p>
-            </div>
-            <h3>The Boston Marathon Run 2015</h3>
-            <div style="clear:both"></div>
-            <p style="margin: -17% 0 0 5%;">
-              <img src="images/runner.png"/ style="max-width:30px; max-height:30px;">
-              <font color ="grey">Race</font>
-            </p>
-            <p style="margin: -1% 0 0 5%;">
-              <img src="images/location.png"/ style="max-width:20px; max-height:20px;">
-              <font color ="grey">&nbsp;&nbsp;&nbsp;&nbsp;6654 Baysh...</font>
-            </p>
-          </div>
-        </div>
-        <div id="event" style="margin-top:2%; margin-left:2%;">
-          <div id="bar">
-            <div id="date">
-              <font color="white">
-                <b>Mon, Jul 16<br/>
-                6:30 pm</b>
-              </font>
-            </div>
-          </div>
-          <img src="images/juronglake.png" style="float: left; border:4px solid #fff; width:90px; height:100px; margin:-10% 0 0 5%;">
-          <div id="eventname">
-            <div id="charge">
-              <p style="margin: -25px 0 0 18px;">#free</p>
-            </div>
-            <h3>The Jurong Lake Run 2015</h3>
-            <div style="clear:both"></div>
-            <p style="margin: -17% 0 0 5%;">
-              <img src="images/runner.png"/ style="max-width:30px; max-height:30px;">
-              <font color ="grey">Race</font>
-            </p>
-            <p style="margin: -1% 0 0 5%;">
-              <img src="images/location.png"/ style="max-width:20px; max-height:20px;">
-              <font color ="grey">&nbsp;&nbsp;&nbsp;&nbsp;9423 Shore...</font>
-            </p>
-          </div>
-        </div>
-        <div id="event" style="margin-top:2%; margin-left:2%;">
-          <div id="bar">
-            <div id="date">
-              <font color="white">
-                <b>Fri, Aug 18<br/>
-                6:00 pm</b>
-              </font>
-            </div>
-          </div>
-          <img src="images/california.png" style="float: left; border:4px solid #fff; width:90px; height:100px; margin:-10% 0 0 5%;">
-          <div id="eventname">
-            <div id="charge">
-              <p style="margin: -25px 0 0 18px;">#free</p>
-            </div>
-            <h3>The California Marathon 2015</h3>
-            <div style="clear:both"></div>
-            <p style="margin: -17% 0 0 5%;">
-              <img src="images/runner.png"/ style="max-width:30px; max-height:30px;">
-              <font color ="grey">Race</font>
-            </p>
-            <p style="margin: -1% 0 0 5%;">
-              <img src="images/location.png"/ style="max-width:20px; max-height:20px;">
-              <font color ="grey">&nbsp;&nbsp;&nbsp;&nbsp;7785 Milwa...</font>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="footer"></div>
-  </body>
+    </body>
 </html>
