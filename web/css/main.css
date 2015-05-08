@@ -26,8 +26,18 @@ body{
 }
 
 .category_pictures_img {
+    height: 95%;
+    width: 98%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dark_overlay {
     height: 100%;
     width: 100%;
+    background: rgba(0,0,0,0.2);
 }
 
 .banner_img {
@@ -171,6 +181,21 @@ body{
     color: white;
 }
 
+.role_supplier{
+    background-color: dodgerblue;
+    color: white;
+}
+
+.role_volunteer{
+    background-color: mediumpurple;
+    color: white;
+}
+
+.role_sponsor{
+    background-color: orange;
+    color: white;
+}
+
 .category_text_div {
     top: 120px;
     bottom: 120px;
@@ -189,7 +214,6 @@ body{
     height: 100%;
     width: 100%;
     top: 0;
-    background: rgba(0,0,0,0.2);
 }
 
 .navbar_icon_color{
@@ -279,4 +303,37 @@ body{
     height: 20;
     margin-left: 5;
     margin-right: 5;
+}
+
+.black-text{
+    color: black;
+}
+
+.grey-text{
+    color: grey;
+}
+
+pipe ul li { float: right; }
+pipe ul li:after { content: "|"; padding: 0 .5em; }
+
+.footer-container{
+    background-color: lightgrey;
+    height: 40;
+    margin-top: 20;
+}
+
+.footer-left{
+    float: left;
+    height: 40;
+    background-color: lightgrey;
+    padding-left: 40;
+    padding-top: 10;
+}
+
+.footer-right{
+    float: right;
+    height: 40;
+    background-color: lightgrey;
+    padding-right: 40;
+    padding-top: 10;
 }
